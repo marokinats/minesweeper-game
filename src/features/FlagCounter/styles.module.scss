@@ -1,0 +1,20 @@
+.flagCounter {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  & svg {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.number {
+  font-size: 24px;
+  line-height: 1.25;
+  min-width: 45px;
+}
