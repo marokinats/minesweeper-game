@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  & svg {
+    width: 100%;
+    height: auto;
+  }
+}
